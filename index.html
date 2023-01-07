@@ -16,47 +16,100 @@
         <div class="navbar">
             <div class="icon">
                 <h2 class="logo">Array 101</h2><br>
+            
             </div>
 
-            <!--tabs-->
-            <div class="menu">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">PRACTICE</a></li>
-                  <!---  <li><a href="#">CONTACT</a></li> -->
-                </ul>
 
-            </div>
+             <!--Search Bar-->
 
-            <!--Search Bar-->
-
-            <div class="Search">
+             <div class="Search">
                 <input class="srch" type="search" name="" placeholder="search">
                 <button class="btn">Search</button>
             </div>
-        </div>
+            
+            <!--tabs-->
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'HOME')" id="defaultOpen">HOME</button>
+                <button class="tablinks" onclick="openCity(event, 'ABOUT')">ABOUT</button>
+                <button class="tablinks" onclick="openCity(event, 'PRACTICE')">PRACTICE</button>
+              </div>
+
+            <!--Tabs-->
+
+
+            <!-- Tab content -->
+<div id="HOME" class="tabcontent">
+    <div class="content">
+        <H3>HOME</H3>
+
+
+        <h1>Array<br><span>Data Structure Fundamental</span><br></h1><br>
+        <p class="par" id="top">Arrays are a powerful and useful concept used in programming. <br> <br></p>
+            <br>
+            <br>
+
+            <img src="example.png" alt="Basic Array ">
+            <p>Basic Structure of an Array</p><br><br>
 
 
 
-        
 
-        <div class="content">
-            <h1>Array<br><span>Data Structure Fundamental</span><br></h1><br>
-            <p class="par" id="top">Arrays are a powerful and useful concept used in programming. <br> <br></p>
-                <br>
-                <br>
-
-                <img src="example.png" alt="Basic Array ">
-                <p>Basic Structure of an Array</p><br>
+            <button class="cn"><a href="#"></a>PRACTICE INTERVIEW QUESTIONS</a></button>
+  </div>
+</div>
 
 
+            <!-- Tab content -->
+            <div id="ABOUT" class="tabcontent">
+                <div class="content">
+                    <H3>ABOUT</H3>
+                <p><h2>Introduction</h2> <br>
+                    An array is a data structure that serves as a collection of multiple items.<br>
+                     You can iterate over the array or access individual items using an index.<br> </p><br>
+                     <br>
+                     <br>
 
-                <button class="cn"><a href="#"></a>PRACTICE INTERVIEW QUESTIONS</a></button>
+                     <h3>ADVANTAGES</h3>
+                     <br>
+                     <p><ol>
+                        <li>Arrays help in code optimization. We can store a large number of values in a single array by writing a small piece of code rather than declaring each variable separately.</li><br>
+                        <li>Arrays are easy to use as many algorithms like searching and sorting techniques, finding maximum and minimum values, reversing can be easily implemented using arrays.</li><br>
+                        <li>The time complexity to access any element of an array is O(1), i.e, it takes a constant amount of time to access an element.</li><br>
+                     </ol></p>
+                     <br>
+                     <br>
 
-    
-        </div>
-    </div>
+                     <h3>DISADVANTAGES</h2>
+                        <br>
+
+                     <ol>
+                        <li>The size of an array is fixed. Once the memory is allocated to an array, it cannot be increased or decreased. This prevents us from storing extra data in case we want to. These arrays of fixed size are called static arrays.</li><br>
+                        <li>Allocating less memory than the required to an array leads to loss of data.</li><br>
+                        <li>The deletion and insertion operations in arrays are very difficult to implement as they store data in contiguous memory locations. To overcome this problem, linked lists are implemented which provide random access of elements.</li><br>
+                     </ol>
+
+
+            </div>
+
+               
+                     <!-- Tab content -->
+
+ <div id="PRACTICE" class="tabcontent">
+      <h3>PRACTICE SECTION</h3>
+      <div class="content">
+
+            
+ <p> practice link/questions</p>
+
+     </div>
+  </div>
+</div>
+
+            
+
+
+   
+
     </div>
     <script src="function.js"></script>
     
