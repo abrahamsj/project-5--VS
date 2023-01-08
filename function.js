@@ -2,8 +2,6 @@ function openCity(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
 
-    // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click("active");
 
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");
